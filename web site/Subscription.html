@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HCI magazine Subscription</title>
+    <meta name="author" content="Hayato C Ishida">
+    <meta name="description" content="topical magazine web site - Coursework 2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!-- jQuery for advanced JavaScript    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- load header.html and footer.html from script file    -->
+    <script>
+        $(function(){
+            $("#header") .load("script/header.html");
+            $("#footer") .load("script/footer.html");
+        });
+    </script>
+    
+    <!-- SNS icons from w3schools -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--User Stylesheet-->
+    <link rel="stylesheet" href="StyleSheet/style.css">
+
+
+</head>
+
+<body class="ArticleContainer">
+
+    <!--Header -->
+    <div id="header"></div>
+    
+    <!--breadcrumb-->
+    <div class="bread">
+    <ol class="breadcrumb">
+    <li><a href="index.html">HCI magazine</a></li>
+    <li class="active">Subscription</li>
+    </ol>
+    </div>
+    
+<!------------ Subscription contents - - -------->
+<div class="subscription_content">
+
+    
+    <section class="section_a"><h1 id="welcome_title">Subscrib now !</h1>
+    <h2>You can subscrib to get our weekly magazine and more! </h2>
+    <h3>OR</h3>
+    <h4>You can sign up for oue web-site to recieve daily update on of our articles</h4>
+    </section>
+    
+<!-- sign up / login guide   -->
+    <section class="section_b">
+    <h1 id="b">Sing up to get more out of this site</h1>
+    <p1>You can sign up and recieve update on ...</p1>
+    <ul>
+        <li>New articles</li><li>Upcoming tech event</li>
+        <li>Breaking tech news</li><li>Our special offers, and more...</li>
+    <p2>Sign up now from the <a href="Sing-up.html">form! &raquo;</a></p2>
+    <footer class="more">Already signed up ? <a href="login.html">Login &raquo;</a></footer>
+    </ul>
+    
+    </section>
+
+<!-- subscription guide   -->
+    <article class="article_a"><h1 id="b">Registration for subscription</h1>
+    <p1>By sbscrpt to our web site you will get.....</p1>
+    <ul>
+        <li>Weekly digital magazine</li>
+        <li>Chance to win monthly given away!</li>
+        <li>$30.00/month or $150.00/6months</li>
+        <footer class="more"><a href="Subscription.html">Start registration &raquo;</a></footer>
+    </ul>
+    
+    <h2>Special offer</h2>
+    <ul>
+        <li>Now, you can get one month free trial!
+        <footer class="more"><a href="Subscription.html">Register &raquo;</a></footer></li>
+        <li>We offere 50% dicount for studdents in high school or higher education
+        <footer class="more"><a href="Subscription.html">Register now&raquo;</a></footer></li>
+        
+    </ul>
+    </article>
+
+</div>
+
+    <!--footer-->
+    <div id="footer"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HCI magazine BLOG</title>
+    <meta name="author" content="Hayato C Ishida">
+    <meta name="description" content="topical magazine web site - Coursework 2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!-- jQuery for advanced JavaScript    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- load header.html and footer.html from script file    -->
+    <script>
+        $(function(){
+            $("#header") .load("script/header.html");
+            $("#footer") .load("script/footer.html");
+        });
+    </script>
+    
+    <!-- SNS icons from w3schools -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--User Stylesheet-->
+    <link rel="stylesheet" href="StyleSheet/style.css">
+
+
+</head>
+
+<body class="ArticleContainer">
+
+    <!--Header -->
+    <div id="header"></div>
+    
+<!----------  Blog Contet   ---------->
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+      
+<!--breadcrumb    -->
+    <ol class="breadcrumb">
+    <li><a href="index.html">HCI magazine</a></li>
+    <li class="active">Blog</li>
+    </ol>
+      
+    <!-- content body -->
+    <section id="shout">
+      <h1>Writers' Blog</h1>
+      <p>Writers' blog is about personal view in some topic and something that does not appear on articles. Enjoy behind a secence of our articles.</p>
+    </section>
+    <!-- main content -->
+    <section id="services" class="clear">
+      <!-- article 1 -->
+      <article class="one_third">
+        <h2>Our thoughts on recent Apple event</h2>
+          <img src="https://assets.media-platform.com/gizmodo/dist/images/2019/09/10/iPhone_Sep2019-1.jpg" alt="aplle.com" width="80px" height="80px">
+        <p>So there was a big tech event recently. Yes, you guessed right it is Apple one. They released new iPhones and other products as their usual September event (to see more detail about this event go read articl from <a href="Articles2.html">product topic page</a>). What did you think about it? Awesome? Boring? Not really interesting ? Here is our personal thoughts about it .......</p>
+        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+      </article>
+      <!-- article 2 -->
+      <article class="one_third">
+        <h2>These days, I am considering to buy ......</h2>
+        <img src="https://store.storeimages.cdn-apple.com/8567/as-images.apple.com/is/ipad-hero-unselected-201909_GEO_JP?wid=744&amp;hei=1212&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1567298459437" alt="Apple.com" align="left" width="80px" height="80px">
+        <p>Apple released several new product at their last event. (To see more detail about it go read articl from <a href="Articles2.html">product topic page</a>). I though their new iPad is pretty nice. Low price, but you can use Apple pencil with it. Maybe it is good product for students to buy ? Oh, I almost forget, iPhones are also released and ........</p>
+        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+      </article>
+      <!-- article 3 -->
+      <article class="one_third lastbox">
+        <h2>I am almost done with first semester of BSc Computer science</h2>
+        <img src="https://yt3.ggpht.com/a/AGF-l7-UY8PldkGpi9Zc4oEhvQ0OYa46cj-jdD9i6A=s900-c-k-c0xffffffff-no-rj-mo" alt="UoL logo" width="80px" height="80px">
+        <p>I am almost finish with my very first semester at UoL BCs Computer Science, which is distance learning program. We have several articles about this programm so you should read those <a href="Article1.html">articles</a> if you are interested. I will share ny experience from last couple month of studying. By the way, this web site is one of my course's final project.......</p>
+        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+      </article>
+    </section>
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <section class="last clear">
+      <article class="two_third">
+        <h2>More Blog</h2>
+        <p>You can search blog with a keyword and see our blog from past</p>
+        <input type="text" name="search" placeholder="keywords">
+        <p>See more <a href="#">blogs &raquo;</a></p>
+        
+          
+          
+          
+        
+          <h3>template credit</h3>
+        <p>This is a W3C compliant free website template from <a href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. For full terms of use of this template please read our <a href="https://www.os-templates.com/template-terms">website template licence</a>.</p>
+        <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more HTML5 templates visit <a href="https://www.os-templates.com/">free website templates</a>.</p>
+        <footer class="more"><a href="#">Read More &raquo;</a></footer>
+      </article>
+    </section>
+    <!-- / content body -->
+  </div>
+</div>
+
+
+    <!--footer-->
+    <div id="footer"></div>
+
+</body>
+
+</html>

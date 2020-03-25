@@ -1,0 +1,507 @@
+/*------------- site wide style sheet----------------*/
+
+
+/*---body---*/
+
+
+/*---------------------------footer styke-------------------------------*/
+
+/*----- Desuktop footer------ */
+@media only screen and (min-width: 1200px) {
+.main_footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid black;
+    clear: both;
+}
+    
+.main_footer p2 {
+    position: absolute;
+    bottom: auto;
+    right: 90%;
+}
+
+.main_footer p1 {
+    position: absolute;
+    bottom: auto;
+    right: 5%;
+}
+}
+/* --- Laptop Footer --- */
+@media only screen and (max-width: 1200px) {
+.main_footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid black;
+    clear: both;
+}
+.main_footer p2 {
+   
+    position: static;
+    bottom: auto;
+    right: auto;
+}
+
+.main_footer p1 {
+    position: static;
+    bottom: auto;
+    right: 5%;
+}
+}
+/* --- Tablet Footer --- ok*/
+@media only screen and (max-width: 992px) {
+.main_footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid black;
+    clear: both;
+}
+.main_footer p2 {
+   
+    position: static;
+    bottom: auto;
+    right: 80%;
+}
+
+.main_footer p1 {
+    position: relative;
+    bottom: auto;
+    right: 3%;
+}
+}
+/* --- Phone Footer --- */
+@media only screen and (max-width: 768px) {
+.main_footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid black;
+    clear: both;
+}
+
+.main_footer p2 {
+   
+    position: static;
+    bottom: auto;
+    right: 90%;
+}
+
+.main_footer p1 {
+    position: relative;
+    bottom: 0;
+    
+}
+}
+
+.footer_nav {
+    position: static;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: white;
+    color: red;
+}
+
+.footer_nav {
+    color: white;
+    background-color: none;
+}
+
+
+/*------ Contents of HOME ---------*/
+
+
+/*------ Contents of Article1 & Article2 & Blog ----- */
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+/*#container{display:block; width:960px;}*/
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color: black; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'� '; font-size:26px;}
+blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
+.one_third{width:300px;}
+.two_third{width:960px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+.lastbox{margin-right:0;} 
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:70%; margin:10px auto; padding:0; text-align:left;}
+
+.row2{color:black; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0;}
+#container section{display:block; width:100%; margin:5% 0 30px 0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right;}
+
+/* ------Shout-----*/
+
+#container #shout{margin-bottom:50px; padding:30px 0; border-top:1px solid #DEDEDE; border-bottom:1px solid #DEDEDE;}
+#container #shout h1{font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;}
+#container #shout p{font-size:16px; margin-bottom:0; padding-bottom:0; line-height:1.8em;}
+
+/* ------services-----*/
+
+#container #services{margin-bottom:50px; line-height:1.6em;}
+#container #services article{}
+#container #services article h2{font-size:14px; margin-bottom:15px;}
+#container #services article p{margin:0; padding:0;}
+#container #services article img{float:left; width:80px; height:80px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
+#container #services article footer{margin:10px 0 0 0;}
+
+
+
+
+
+/* -------  Home Contents ---------*/
+
+.section {
+    grid-area: section;
+    width: 80%;
+    height: 30%;
+    margin-top: 5%;
+/*    margin-left: 20%;*/
+    margin-right: 20%;
+    text-align: center;
+    font-size: 120%;
+}
+
+.article1 {
+    grid-area: article1;
+    margin: 5%;
+    float: left;
+    width: 100%;
+}
+.article2 {
+    grid-area: article2;
+     margin: 5%;
+    float: right;
+    width: 100%;
+}
+.article3 {
+    grid-area: article3;
+     margin: 5%;
+    float: left;
+    width: 100%;
+}
+.article4 {
+    grid-area: article4;
+     margin: 5%;
+    float: left;
+    width: 100%;
+}
+
+/*----- Desuktop Home------ */
+@media only screen and (min-width: 1200px) {
+    .home_contents {
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: 
+        'welcome welcome welcome'
+        'section section section'
+        'article1 article1 article2'
+        'article3 article3 article4';
+}
+    
+    .welcome {
+    grid-area: welcome;
+    margin: 5%;
+    margin-top: 1%;
+    border-bottom: 1.5px solid #DEDEDE;
+    border-top: 1.5px solid #DEDEDE;
+    width: auto;
+    text-align: center;
+    }
+
+    #welcome_title {
+        font-size:56px; font-weight:normal; font-style:italic; text-align:center; margin-top: 1%;
+    }
+    
+    .bread {
+        margin-top: 3%;
+    }
+}
+    
+/* --- Laptop Home --- */
+@media only screen and (max-width: 1200px){
+    .home_contents {
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: 
+        'welcome welcome welcome'
+        'section section section'
+        'article1 article1 article2'
+        'article3 article3 article4';
+    }
+    
+    .welcome {
+    grid-area: welcome;
+    margin: 5%;
+    border-bottom: 1.5px solid #DEDEDE;
+    border-top: 1.5px solid #DEDEDE;
+    width: auto;
+    text-align: center;
+    }
+
+    #welcome_title {
+        font-size:56px; font-weight:normal; font-style:italic; text-align:center; margin-top: 1%;
+    }
+    
+    .bread{
+        margin-top:5%;
+    }
+}
+ 
+/* --- Tablet Home --- */
+@media only screen and (max-width: 992px){
+    .home_contents {
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: 
+        'welcome welcome'
+        'section section'
+        'article1 article1'
+        'article2 article2'
+        'article3 article3'
+        'article4 article4';
+    }
+    .welcome {
+    grid-area: welcome;
+    margin: 8%;
+    border-bottom: 1.5px solid #DEDEDE;
+    border-top: 1.5px solid #DEDEDE;
+    width: auto;
+    text-align: center;
+    }
+
+    #welcome_title {
+        font-size:46px; font-weight:normal; font-style:italic; text-align:center; margin-top: 1%;
+    }
+    
+    .bread {
+        margin-top: 5%;
+    }
+}
+
+/* --- Phone Home --- */
+@media only screen and (max-width: 768px){
+    .home_contents {
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: 
+        'welcome welcome'
+        'section section'
+        'article1 article1'
+        'article2 article2'
+        'article3 article3'
+        'article4 article4';
+    }
+       .welcome {
+    grid-area: welcome;
+    margin: 10%;
+    border-bottom: 1.5px solid #DEDEDE;
+    border-top: 1.5px solid #DEDEDE;
+    width: auto;
+    text-align: center;
+    }
+
+    #welcome_title {
+        font-size:46px; font-weight:normal; font-style:italic; text-align:center; margin-top: 6%;
+    }
+    
+    .bread {
+        margin-top: 10%;
+    }
+}
+
+/*-------animation for subscrption page --------*/
+@keyframes attention {
+    from {color: black}
+    to {color: darkblue}
+}
+/* --------- Subscription contents ---------*/
+
+.section_a {
+    grid-area: section_a;
+    margin-top: 8%;
+    text-align: center;
+    border-bottom: 1.5px solid #DEDEDE;
+    border-top: 1.5px solid #DEDEDE;
+    animation-name: attention;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+.section_b {
+    grid-area: section_b;
+    margin: 5%;
+    width: 70%;
+    font-size: 20px;
+}
+
+#term {
+    color:red;
+}
+
+.article_a {
+    grid-area: article_a;
+    margin: 5%;
+    font-size: 20px;
+}
+
+#b {
+    font-size: 120%;
+}
+
+.subscription_content {
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: 
+        'section_a'
+        'section_b'
+        'article_a';
+        
+}
+
+
+
+/*----- animation for log-in page and sign-up page-------*/
+
+@keyframes colour {
+    
+    0% {background-color: white}
+    25% {background-color: antiquewhite}
+    50% {background-color: white}
+    100% {background-color: antiquewhite}
+}
+
+/*-------log in page--------*/
+.login {
+    margin: 20%;
+    margin-top: 10%;
+    color: skyblue;
+    background-color: white;
+    animation-name: colour;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+/*--------sign up page=-----*/
+.signup_form {
+    margin: 20%;
+    margin-top: 10%;
+    color: skyblue;
+    background-color: white;
+    animation-name: colour;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+/*------logo for sign up option-------*/
+#google-button {
+    background-color: #DD4B39;
+    color: white;
+    margin-top: 3%;
+}
+s
+#instagram-button {
+    color:white;
+    background: #3F729B;
+}
+
+#linkedin-button {
+    color:white;
+    background: #007BB6;
+}
+
+/*----- Article 11 -------*/
+
+.container11 {
+    margin-top: 1%;
+}
+
+
+
+.article11 {
+    display: block;
+    margin: 20%;
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+.article11::first-letter {
+    font-size: 300%;
+}
+
+.author {
+    border-top: 1.5px solid #DEDEDE;
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 130%;
+}
+
+/*-----breadcrumb------*/
+
+.acrive {
+    color:orange;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <title>HCI magazine Home</title>
+    <meta name="author" content="Hayato C Ishida">
+    <meta name="description" content="topical magazine web site - Coursework 2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!-- jQuery for advanced JavaScript    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- load header.html and footer.html from script file    -->
+    <script>
+        $(function(){
+            $("#header") .load("script/header.html");
+            $("#footer") .load("script/footer.html");
+        });
+    </script>
+    
+    <!-- SNS icons from w3schools -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--User Stylesheet-->
+    <link rel="stylesheet" href="StyleSheet/style.css">
+
+
+</head>
+
+<body class="HomeContainer">
+
+    <!--- navigation and header ---->
+    
+    <div id="header"></div>
+
+    <!--breadcrumb-->
+    <div class="bread">
+    <ol class="breadcrumb">
+    <li><a href="index.html">HCI magazine</a></li>
+    <li class="active">Home</li>
+    </ol>
+    </div>
+    
+     <!----- contents of home ------>
+    <div class="home_contents">
+    
+
+
+    <section class="welcome">
+    
+    <h1 id="welcome_title">Welcome to HCI magazine ! </h1>
+    <h3>HCI magazine provide you most updated information about Computer Science focused on new products and new technology!</h3></section>
+    
+        <section class="section"> 
+        <h1><i></i></h1>
+        <p><img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-select-2019-family?wid=882&amp;hei=1058&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1567022175704" align="left "alt="Apple.com" heigt="30%" width="25%">
+        
+         Apple September event! <a href="Article21.html">read now!</a>        <img src="https://store.storeimages.cdn-apple.com/8567/as-images.apple.com/is/ipad-hero-unselected-201909_GEO_JP?wid=744&amp;hei=1212&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1567298459437" alt="Apple.com" align="right" width="20%" height="2%">   
+            
+        </p>
+
+    </section>
+    
+    <article class="article1"><h1>What's the trnding of tech world right now?</h1>
+    <ul>
+        <li>Apple's 2019 September event</li>
+        <li>First semester of brand new UoL BSc Computer Science is about to end!</li>
+        <li>Finally finished my Web development course work.  <footer class="more"><a href="#">Here is my report &raquo;</a></footer></li>
+    </ul>
+        
+    </article>
+    
+    
+    <article class="article2"><h1>Sign Up now !</h1>
+    <p1>You can sign up for free now! Or you can start subscribe to our magazine to recieve weekly digital magazine.</p1>
+    <footer class="more"><a href="Subscription.html">See more details &raquo;</a></footer>
+    </article>
+    
+    <article class="article3"><h1>Today's pick of articles!</h1>
+    <p1>Here are our choice of articles for today!</p1>
+    <ul>
+        <li>Apple released new products and more!  <footer class="more"><a href="Article21.html">Read now &raquo;</a></footer></li>
+        <li>UoL is now offering nline BSc Computer Science<footer class="more"><a href="Article11.html">Read now &raquo;</a></footer></li>
+    </ul>
+    </article>
+    
+    <article class="article4"><h1>Upcoming articles</h1>
+    <p1>Our upcoming articles, stay turned !</p1>
+    <ul>
+        <li>How far AI technology developed these days</li>
+        <li>First review of new UoL BSc Computer Science</li>
+        <li>and more.....</li>
+    </ul>
+    
+    </article>
+
+</div>
+    <!---- footer ---->
+    
+    <div id="footer"></div>
+
+</body></html>

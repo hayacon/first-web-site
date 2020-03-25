@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HCI magazine Sign up</title>
+    <meta name="author" content="Hayato C Ishida">
+    <meta name="description" content="topical magazine web site - Coursework 2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!-- jQuery for advanced JavaScript    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- load header.html and footer.html from script file    -->
+    <script>
+        $(function(){
+            $("#header") .load("script/header.html");
+            $("#footer") .load("script/footer.html");
+        });
+    </script>
+    
+    <!-- SNS icons from w3schools -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--User Stylesheet-->
+    <link rel="stylesheet" href="StyleSheet/style.css">
+
+
+</head>
+
+<body class="ArticleContainer">
+
+    <!--Header -->
+    <div id="header"></div>
+    
+    <!--breadcrumb-->
+    <div class="bread">
+    <ol class="breadcrumb">
+    <li><a href="index.html">HCI magazine</a></li>
+    <li><a href="Subscription.html">Subscription</a></li>
+    <li class="active">Sing-up</li>
+    </ol>
+    </div>
+    
+
+<!--main content-->
+<section class="signup_form">
+        <h1>Sign up form</h1>
+        <a id="google-button" class="btn btn-block btn-social btn-google"><i class="fa fa-google"></i> Sign up with Googl</a>
+        <a id="instagram-button" class="btn btn-block btn-social btn-instagram"><i class="fa fa-instagram"></i> Sign up with Instagram</a>
+        <a id="linkedin-button" class="btn btn-block btn-social btn-linkedin"><i class="fa fa-linkedin"></i> Sign up with Linkedin</a>
+        <p1>OR</p1>
+        
+        <div class="form-group">
+        <label for="user-name">User name:</label>
+        <input type="user-name" class="form-control" id="user-name">
+        </div> 
+        
+        <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email">
+        </div> 
+        
+        <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password">
+        </div> 
+        
+        <div class="form-group">
+        <label for="reenter-password">Reenter password:</label>
+        <input type="password" class="form-control" id="password">
+        </div>
+        <div class="checkbox">
+        <label><input type="checkbox">Agree with <a href="#" id="term"> term and condition</a>
+        </label>
+        </div>
+        
+        <button type="submit" class="btn btn-danger">Submit</button>
+    </section>
+    
+
+<!--footer-->
+<div id="footer"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
